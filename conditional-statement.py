@@ -31,13 +31,11 @@ else:
 bettingnumber = 1
 if bettingnumber == 1:
     print("You won a goat!!!")
-if bettingnumber == 2:
+elif bettingnumber == 2:
     print("You won a cow!!!")
-if bettingnumber == 3:
+elif bettingnumber == 3:
     print("You won 3 cows!!!")
-if bettingnumber == 4:
+elif bettingnumber == 4:
     print("You won 5 cows!!!")
 else:
     print("Please enter a number form 1-4 to bet!!!")
-
-
